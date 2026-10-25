@@ -12,14 +12,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+
 </head>
 <body>
     <header class="hero">
         <div class= "contenedor__hero">
             <nav class="navegador">
-                <button>
-                    CATÁLOGO
-                </button>
+                <div class="menu">
+                    <button>CATÁLOGO</button>
+                    <ul class="menu__lista">
+                        <li><a href="#modelos-deportivos">Deportivos</a></li>
+                        <li><a href="#modelos-super-deportivos">Super Deportivos</a></li>
+                    </ul>
+                </div>
             </nav>
             <div class="logo">
                 <img alt="Logo Supercars Olivos" src="assets\icono.png">
@@ -39,7 +44,7 @@
             </div>
             <div class="contenedor-carrusel__deportivo">
                 <button class="flecha flecha--izquierda">
-                    Anterior
+                    <
                 </button>
                 <div class="imagenes-deportivos">
                     <img src="assets\nobles-y-deportivos\audi-a3.png" alt="Audi a3">
@@ -51,7 +56,27 @@
                 </div>
                 
                 <button class="flecha flecha--derecha">
-                    Siguiente
+                    >
+                </button>
+            </div>
+        </section>
+        <section id="modelos-super-deportivos">
+            <div class="contenedor__texto-super-deportivo">
+                <h3>Super Deportivos</h3>
+            </div>
+            <div class="contenedor-carrusel__super-deportivo">
+                <button class="flecha flecha--izquierda">
+                    <
+                </button>
+                <div class="imagenes-deportivos">
+                    <img src="assets\premiums-y-superdeportivos\aston-martin-db11.png" alt="Aston Martin db11">
+                    <img src="assets\premiums-y-superdeportivos\audi-r8.png" alt="Audi R8">
+                    <img src="assets\premiums-y-superdeportivos\chevrolet-corvette.png" alt="Chevrolet Corvette">
+                    <img src="assets\premiums-y-superdeportivos\mercedes-benz-amg.png" alt="Mercedes Benz AMG">
+                    <img src="assets\premiums-y-superdeportivos\porsche-911.png" alt="Porsche 911">
+                </div>
+                <button class="flecha flecha--derecha">
+                    >
                 </button>
             </div>
         </section>
@@ -59,5 +84,6 @@
 
     <footer class="">
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
